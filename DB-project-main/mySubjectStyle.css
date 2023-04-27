@@ -1,0 +1,49 @@
+
+body{
+    background-color: whitesmoke !important;
+     
+}
+
+nav{
+    font-family: 'Sarabun', sans-serif;
+}
+
+
+#studentName{
+    color: #C74A1A;
+    border-color: #C74A1A;
+}
+
+#studentName:hover{
+    color: white;
+    background-color: #C74A1A;
+}
+
+#mySubject{
+    color: #C74A1A;
+    border-color: #C74A1A;
+}
+
+#mySubject:hover{
+    color: white;
+    background-color: #C74A1A;
+}
+
+#subject{
+    color: #C74A1A;
+    border-color: #C74A1A;
+}
+
+#subject:hover{
+    color: white;
+    background-color: #C74A1A;
+}
+
+h3{
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+
+

@@ -1,0 +1,49 @@
+body{
+    background-color: whitesmoke !important;
+    
+     
+}
+
+
+h3{
+    background-color: #C74A1A;
+    font-family: 'Sarabun', sans-serif;
+    margin: -10;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+ 
+  box-sizing: border-box;
+  border: none;
+  transition: 0.5s;
+  outline: none;
+  border-bottom: solid 1px black;
+}
+
+input[type=text]:focus {
+  border: none;
+  border-bottom: solid 1px red;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 8px 10px;
+ 
+  box-sizing: border-box;
+  border: none;
+  transition: 0.5s;
+  outline: none;
+  border-bottom: solid 1px black;
+}
+
+input[type=password]:focus {
+  border: none;
+  border-bottom: solid 1px red;
+}
+
+
+
+

@@ -24,7 +24,7 @@
 
         </div>
     </nav>
-
+     
     <h3 style="margin-top: 80px;">รายวิชาที่ลงทะเบียนแล้ว</h3>
     <div class="container bg-white rounded" style="width: 80%; padding: 30px;">
         <div class="d-flex mb-3" style="font-family: 'Sarabun', sans-serif;">

@@ -1,5 +1,3 @@
- 
- 
 
 <template>
   <section>
@@ -25,17 +23,23 @@
                         <!-- Input fields -->
                         <div class="form-group pt-3 ">
                             <label for="email">E-mail (@kmitl.ac.th):</label>
+
                             <input type="text" id="email" placeholder="" name="email" />
+
                         </div>
                         <div class="form-group mt-4">
                             <label for="password">Password:</label>
+
                             <input type="password" id="password" placeholder="" name="password" />
+                            
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary mt-4 text-center">
-                                Login
-                            </button>
+                          <router-link :to="{name: 'enroll', params: {page: 3}}">
+                            <input type="submit" class="btn btn-primary mt-4 text-center" value="Login">
+                          </router-link>
+
                         </div>
+                        <br>
                     </form>
                     <!-- Form end -->
                 </div>

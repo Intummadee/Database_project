@@ -1,13 +1,25 @@
 const express = require("express")
-
+const session = require("express-session")
 const app = express();
 const cors = require('cors')
 app.use(cors())
+
+
+
 
 // Statics
 app.use(express.static('static'))
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+
+
+// setting express-session
+app.use(session({
+  secret: 'cute cat',
+  resave: false,
+  saveUninitialized: true
+}))
+
 
 // routers
 const indexRouter = require('./routes/index')

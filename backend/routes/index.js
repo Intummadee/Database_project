@@ -20,4 +20,13 @@ router.get("/", async function (req, res, next) {
   }
 });
 
+
+router.post('/', async function (req, res, next){
+  email = req.body.email
+  password = req.body.password
+  
+})
+
+
+
 exports.router = router;

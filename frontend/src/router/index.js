@@ -15,7 +15,7 @@ const routes = [
     component: () => import('../views/earn/subjects.vue')
   },
   {
-    path: '/enroll',
+    path: '/enroll/:userId',
     name: 'enroll',
     component: () => import('../views/earn/mySubject.vue')
   },
